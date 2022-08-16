@@ -12,7 +12,7 @@ public class DemoApplication {
 	@RequestMapping("/")
 	public String home() {
 	//return "Hello Docker World!!! App Version 1.0";
-	return "Hello Docker World!!! App Version 1.0 -> S2I Build >>> update";
+	return "Hello Docker World!!! App Version 1.0 -> S2I Build >>> ";
 	}
 
 	public static void main(String[] args) {
