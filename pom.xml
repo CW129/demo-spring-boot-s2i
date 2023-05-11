@@ -33,6 +33,11 @@
 		    <artifactId>jedis</artifactId>
 		    <version>4.4.0</version>
 		</dependency>
+		<dependency>
+		    <groupId>org.springframework.data</groupId>
+		    <artifactId>spring-data-redis</artifactId>
+		    <version>3.0.5</version>
+		</dependency>
 <!-- 		<dependency>
 			<groupId>tomcat-cluster-redis-session-manager</groupId>
 			<artifactId>tomcat-cluster-redis-session-manager</artifactId>
