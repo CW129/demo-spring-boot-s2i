@@ -29,10 +29,9 @@
 		</dependency>
 		<!-- Redis Session Manager -->
 		<dependency>
-			<groupId>jedis</groupId>
-			<artifactId>jedis</artifactId>
-			<version>4.3.2</version>
-			<scope>runtime</scope>
+		    <groupId>redis.clients</groupId>
+		    <artifactId>jedis</artifactId>
+		    <version>4.4.0</version>
 		</dependency>
 <!-- 		<dependency>
 			<groupId>tomcat-cluster-redis-session-manager</groupId>
