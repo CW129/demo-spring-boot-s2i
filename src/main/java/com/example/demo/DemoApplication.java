@@ -14,14 +14,7 @@ public class DemoApplication {
 	//return "Hello Docker World!!! App Version 1.0";
 	return "Hello Docker World!!! App Version 1.0 -> S2I Build >>> ";
 	}
-	@RequestMapping("/session")
-	public String session() {
-		HttpSession session = request.getSession(true);
-		String ssid = session.getId();
-	//return "Hello Docker World!!! App Version 1.0";
-	return ssid;
-	}
-
+	
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
