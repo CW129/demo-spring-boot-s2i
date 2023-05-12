@@ -16,7 +16,7 @@ public class DemoApplication {
 	}
 	@RequestMapping("/session")
 	public String session() {
-		session = request.getSession(true);
+		HttpSession session = request.getSession(true);
 		String ssid = session.getId();
 	//return "Hello Docker World!!! App Version 1.0";
 	return ssid;
